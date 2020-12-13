@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: UV8.ma
-//Last modified: Sun, Dec 13, 2020 12:41:34 AM
+//Name: UV10.ma
+//Last modified: Sun, Dec 13, 2020 12:42:09 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -13,8 +13,8 @@ fileInfo "osv" "Microsoft Windows 8 Business Edition, 64-bit  (Build 9200)\n";
 createNode transform -s -n "persp";
 	rename -uid "9555AEAA-40CF-4D8C-ADE5-5F9B61BB755D";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -16.82944557622675 5.4513619705826972 18.31290425724363 ;
-	setAttr ".r" -type "double3" 345.26164769906126 -45.799999999999962 359.9999999999759 ;
+	setAttr ".t" -type "double3" -7.2051878531387423 6.3144944883138274 24.471380813402583 ;
+	setAttr ".r" -type "double3" 343.46164769904158 -21.800000000000061 359.99999999997817 ;
 	setAttr ".rp" -type "double3" 8.8817841970012523e-16 -4.4408920985006262e-16 -3.3306690738754696e-16 ;
 	setAttr ".rpt" -type "double3" -9.3906974643516255e-16 7.7734708846449125e-16 -4.8408281021334887e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -42343,4 +42343,4 @@ connectAttr "groupId102.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId103.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId104.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId114.msg" ":initialShadingGroup.gn" -na;
-// End of UV8.ma
+// End of UV10.ma
